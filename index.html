@@ -3,14 +3,16 @@
 <html>
     <head>
         <title>Jess(t) Some Thoughts</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
         <style>
             h1 {
-                font-family:"PT Sans","Calibri";
+                font-family:"Oswald","PT Sans";
+                font-size:50px;
                 text-align: center;
                 color:darkslategray;
             }
             h2 {
-                font-family:"PT Sans","Calibri";
+                font-family:"Oswald","PT Sans";
                 text-align: center;
                 color:darkslategray;
             }
@@ -18,29 +20,89 @@
                 font-family:"PT Sans", "Calibri";
                 background-color:pink;
             }
+            .media {
+                text-align:center;
+            }
+            .header {
+                position:relative;
+                display:inline-block;
+                width:100%;
+            }
+            .header .header-image {
+                width:100%;
+            }
+            .header .header-box {
+                position: absolute;
+                z-index: 2;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                top: 20%;
+                background: rgba(0,0,0,0.8);
+                font-family: "PT Sans",sans-serif;
+                width:50%
+            }
+            .header .header-text {
+                color:white;
+            }
+
+            .header #header2 {
+                color:white;
+                font-size:20px;
+            }
+            .page-labels {
+                background-color:rgba(0,0,0,0.8);
+                width:100%;
+                height:20px;
+                z-index:2;
+                padding:10px;
+            }
+
+            #labels {
+                font-family:"PT Sans";
+                font-size:15px;
+                color:white;
+                text-align: left;
+                margin: 0 auto;
+            }
         </style>
     </head>
 
     <body>
+        <div class="header">
+            <img class="header-image" src="IMG_6290.JPG" Jess(t) My Thoughts>
+            <div class="header-box">
+                <h1 class="header-text">JESS(T) MY THOUGHTS 2.0</h1>
+                <h2 id="header2">Random musings while trying to code</h2>
+            </div>
+        </div>
+        <div class="page-labels">
+            <p id="labels">HOME&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                BLOG POSTS&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;STAY UPDATED!</p>
+        </div>
+
         <h1>Welcome to a new blog page!</h1>
         <h2>This is my attempt to code a page instead of putting it directly into Wordpress.</h2>
         <h2>This way, I can do cool things and learn code!</h2>
-        <img src="High School/Prom Photos!/me standing.jpg" width="401.6" height="601.6">
-        <p>This is a picture of me. I'm not a huge fan of pictures, but they are nice sometimes.</p>
-        <video width="320" height="180" controls>
-            <source src="test.mp4" type="video/mp4">
-        </video>
-        <p>This is a cover of a cover of "Slow Down" by Mac Ayres by Jeremy Passion and Julissa Leilani that I did with my friend Daniel. He is sicko mode.</p>
-        <video width="320" height="180" controls autoplay>
-            <source src="orpheus.mp4" type="video/mp4">
-        </video>
-        <p>This is my first time trying to play "Orpheus" by Sara Bareilles. Needs a bit of polishing. <br>
-        I recorded this through Snapchat, so there are some breaks here and there.</p>
-        <video width="320" height="180" controls>
-            <source src="wheredalove.mp4" type="video/mp4">
-        </video>
-        <p>This is "Where is the Love."</p>
-        <audio controls autoplay src="orpheus.mp3" type="audio/mpeg">
-        </audio>
+        <div class="media">
+            <img src="High School/Prom Photos!/me standing.jpg" width="401.6" height="601.6">
+            <p>This is a picture of me. I'm not a huge fan of pictures, but they are nice sometimes.</p>
+            <video width="320" height="180" controls>
+                <source src="test.mp4" type="video/mp4">
+            </video>
+            <p>This is a cover of a cover of "Slow Down" by Mac Ayres by Jeremy Passion and Julissa Leilani that I did with my friend Daniel. He is sicko mode.</p>
+            <video width="320" height="180" controls autoplay>
+                <source src="orpheus.mp4" type="video/mp4">
+            </video>
+            <p>This is my first time trying to play "Orpheus" by Sara Bareilles. Needs a bit of polishing. <br>
+            I recorded this through Snapchat, so there are some breaks here and there.</p>
+            <video width="320" height="180" controls>
+                <source src="wheredalove.mp4" type="video/mp4">
+            </video>
+            <p>This is "Where is the Love."</p>
+            <audio controls autoplay src="orpheus.mp3" type="audio/mpeg">
+            </audio>
+        </div> 
     </body>
 </html>
