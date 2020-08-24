@@ -5,10 +5,11 @@
     <head>
         <title>Jess(t) Some Thoughts</title>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
         <style>
 
             h1 {
-                font-family:"Oswald","PT Sans";
+                font-family:"Oswald","PT Sans",sans-serif;
                 font-weight:100;
                 font-size:50px;
                 text-align: center;
@@ -16,12 +17,12 @@
             }
 
             h2 {
-                font-family:"Oswald","PT Sans";
+                font-family:"Oswald","PT Sans",sans-serif;
                 text-align: center;
                 color:darkslategray;
             }
             body {
-                font-family:"PT Sans", "Calibri";
+                font-family:"PT Sans", "Calibri",sans-serif;
                 background-color:pink;
             }
             .media {
@@ -44,26 +45,29 @@
                 width:100%;
 
             }
-            .header .header-image {
-                width:101.5%;
-                margin-top:-10px;
-                padding:0;
-                margin-left:-10px;
-                margin-bottom:-5px;
 
-            }
+            @media (min-device-width:600px) {
+                .header .header-image {
+                    width:101.5%;
+                    margin-top:-10px;
+                    padding:0;
+                    margin-left:-10px;
+                    margin-bottom:-5px;
 
-            .header .header-box {
-                position: absolute;
-                z-index: 2;
-                margin: 0 auto;
-                left: 0;
-                right: 0;
-                text-align: center;
-                top: 20%;
-                background: rgba(0,0,0,0.8);
-                font-family: "PT Sans",sans-serif;
-                width:50%;
+                }
+
+                .header .header-box {
+                    position: absolute;
+                    z-index: 2;
+                    margin: 0 auto;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    top: 20%;
+                    background: rgba(0,0,0,0.8);
+                    font-family: "PT Sans",sans-serif;
+                    width:50%;
+                }
             }
             .header .header-text {
                 color:white;
@@ -143,4 +147,3 @@
         </div> 
     </body>
 </html>
-
