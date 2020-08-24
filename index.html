@@ -1,16 +1,20 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <html>
     <head>
         <title>Jess(t) Some Thoughts</title>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
         <style>
+
             h1 {
                 font-family:"Oswald","PT Sans";
+                font-weight:100;
                 font-size:50px;
                 text-align: center;
                 color:darkslategray;
             }
+
             h2 {
                 font-family:"Oswald","PT Sans";
                 text-align: center;
@@ -23,14 +27,32 @@
             .media {
                 text-align:center;
             }
+
+            .graybar {
+                position:relative;
+                display:inline-block;
+                width:100%;
+                background-color:rgba(0,0,0,0.8);
+                margin-top:-10px;
+                margin-left:-10px;
+                height:20px;
+                padding:10px;
+            }
             .header {
                 position:relative;
                 display:inline-block;
                 width:100%;
+
             }
             .header .header-image {
-                width:100%;
+                width:101.5%;
+                margin-top:-10px;
+                padding:0;
+                margin-left:-10px;
+                margin-bottom:-5px;
+
             }
+
             .header .header-box {
                 position: absolute;
                 z-index: 2;
@@ -41,10 +63,19 @@
                 top: 20%;
                 background: rgba(0,0,0,0.8);
                 font-family: "PT Sans",sans-serif;
-                width:50%
+                width:50%;
             }
             .header .header-text {
                 color:white;
+            }
+
+            .main-link {
+                color:white;
+                text-decoration:none;
+            }
+
+            .main-link:hover .main-link:focus {
+                text-decoration:underline;
             }
 
             .header #header2 {
@@ -57,6 +88,7 @@
                 height:20px;
                 z-index:2;
                 padding:10px;
+                margin-left:-10px;
             }
 
             #labels {
@@ -66,20 +98,25 @@
                 text-align: left;
                 margin: 0 auto;
             }
+
         </style>
     </head>
 
     <body>
+        <div class="graybar">
+        </div>
         <div class="header">
             <img class="header-image" src="IMG_6290.JPG" alt="Jess(t) My Thoughts">
             <div class="header-box">
-                <h1 class="header-text">JESS(T) MY THOUGHTS 2.0</h1>
+                <h1 class="header-text"><a href="http://jesstsomethoughts.github.io" class="main-link">JESS(T) MY THOUGHTS 2.0</a></h1>
                 <h2 id="header2">Random musings while trying to code</h2>
             </div>
         </div>
         <div class="page-labels">
-            <p id="labels">HOME&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;ABOUT&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                BLOG POSTS&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;STAY UPDATED!</p>
+            <p id="labels"><a href="http://jesstsomethoughts.github.io" class="main-link">&nbsp;&nbsp;HOME</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                <a href="https://jesstsomethoughts.wordpress.com/about/" class="main-link">ABOUT</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                <a href="https://jesstsomethoughts.wordpress.com/blog-feed/" class="main-link">BLOG POSTS</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+                <a href="https://jesstsomethoughts.wordpress.com/stay-updated/" class="main-link">STAY UPDATED!</a></p>
         </div>
 
         <h1>Welcome to a new blog page!</h1>
@@ -88,7 +125,7 @@
         <div class="media">
             <img src="High School/Prom Photos!/me standing.jpg" width="401.6" height="601.6">
             <p>This is a picture of me. I'm not a huge fan of pictures, but they are nice sometimes.</p>
-            <video width="320" height="180" controls>
+            <video id="slow-down" width="320" height="180" controls>
                 <source src="test.mp4" type="video/mp4">
             </video>
             <p>This is a cover of a cover of "Slow Down" by Mac Ayres by Jeremy Passion and Julissa Leilani that I did with my friend Daniel. He is sicko mode.</p>
@@ -106,3 +143,4 @@
         </div> 
     </body>
 </html>
+
