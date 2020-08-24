@@ -10,8 +10,29 @@
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
         <style>
 
-            h1 {
-                font-family:"Oswald","PT Sans",sans-serif;
+            @media screen and (max-width: 1060px) {
+                #primary { width:100%; }
+                #secondary { width:100%;}  
+            }
+
+            /* @media screen and (max-width: 768px) {
+                #primary { width:100%; }
+                #secondary { width:100%; margin:0; border:none; }
+
+            @media screen and (max-width: 480px) {
+                #primary { width:100%; }
+                #secondary { width:100%; margin:0; border:none; }
+
+            @media screen and (max-width: 320px) {
+                #primary { width:100%; }
+                #secondary { width:100%; margin:0; border:none; }    
+
+            @media screen and (max-width: 240px) {
+                #primary { width:100%; }
+                #secondary { width:100%; margin:0; border:none; } */
+
+                h1 {
+                    font-family:"Oswald","PT Sans",sans-serif;
                 font-weight:100;
                 font-size:50px;
                 text-align: center;
@@ -55,6 +76,21 @@
                 margin-left:-10px;
                 margin-bottom:-5px;
 
+            }
+
+            @media screen and (max-width:768 px) {
+                .header .header box {
+                position: absolute;
+                z-index: 2;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                top: 5%;
+                background: rgba(0,0,0,0.8);
+                font-family: "PT Sans",sans-serif;
+                width:50%;
+                }
             }
 
             .header .header-box {
@@ -147,4 +183,3 @@
         </div> 
     </body>
 </html>
-
