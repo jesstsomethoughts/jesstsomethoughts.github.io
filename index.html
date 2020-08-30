@@ -101,6 +101,21 @@
                 }
             }
 
+            @media screen and (max-width:320px) {
+                .header .header box {
+                position: absolute;
+                z-index: 2;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+                top: 5%;
+                background: rgba(0,0,0,0.8);
+                font-family: "PT Sans",sans-serif;
+                width:80%;
+                }
+            }
+
             .header .header-box {
                 position: absolute;
                 z-index: 2;
@@ -130,6 +145,7 @@
                 color:white;
                 font-size:20px;
             }
+
             .page-labels {
                 background-color:rgba(0,0,0,0.8);
                 width:100%;
@@ -147,6 +163,72 @@
                 margin: 0 auto;
             }
 
+            ul li {
+                display: inline-block;
+                font-size:15px;
+            }
+
+            .navbar-default .navbar-nav>li>a {
+                color: #FFF;
+            }
+            .navbar-default .navbar-brand {
+                color: #FFF;
+                font-weight:bold;
+            }
+            .navbar-default .navbar-nav>li>a:hover {
+                color: #DDD;
+            }
+            .navbar-default .navbar-brand:hover {
+                color: #DDD;
+            }
+            /* .navbar-default {
+                border-radius: 0;
+                border:none;
+                margin-bottom:0;
+            } */
+            .navbar-brand img {
+                height:45px;
+            }
+            .navbar-brand {
+                margin:0px 10px;
+                padding:0px;
+                display:flex;
+                align-items:center;
+            }
+            @media screen and (min-width: 768px) {
+                .navbar-default {
+                    box-shadow:0px 0px 10px black;
+                }
+                .navbar-default .navbar-nav>li>a {
+                    padding: 15px 20px 12px 20px;
+                    transition: border-color .5s;
+                    border-bottom-color: transparent;
+                    text-transform: uppercase;
+                    font-size:15px;
+                    font-weight:bold;
+                }
+                .navbar-default .navbar-nav>li>a:hover {
+                    color: #DDD;
+                    border-bottom:3px solid #DDD;
+                }
+                .navbar-default .navbar-nav>li>a.active:hover {
+                    color: #FFF;
+                    border-bottom:3px solid #FFF;
+                }
+                .navbar-brand {
+                    display:flex;
+                    align-items:center;
+                }
+                .navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover {
+                    color: #FFF;
+                    background-color:white;
+                    border-bottom:3px solid #FFF;
+                }
+                .navbar-default .navbar-nav>li>.active {
+                    border-bottom:3px solid #FFF;
+                }
+            }   
+
         </style>
     </head>
 
@@ -160,12 +242,32 @@
                 <h2 id="header2" style="font-size:1.5vw;">Random musings while trying to code</h2>
             </div>
         </div>
-        <div class="page-labels">
+        <!-- <div class="page-labels">
             <p id="labels"><a href="http://jesstsomethoughts.github.io" class="main-link">&nbsp;&nbsp;HOME</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://jesstsomethoughts.wordpress.com/about/" class="main-link">ABOUT</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://jesstsomethoughts.wordpress.com/blog-feed/" class="main-link">BLOG POSTS</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
                 <a href="https://jesstsomethoughts.wordpress.com/stay-updated/" class="main-link">STAY UPDATED!</a></p>
-        </div>
+        </div> -->
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <!-- <div class="page-labels">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+                </button>
+              </div> -->
+              <div class="collapse page-labels" id="main-nav">
+                <ul class="nav navbar-nav" id="labels">
+                  <li><a href="http://jesstsomethoughts.github.io" class="main-link">HOME</a></li>
+                  <li>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</li>
+                  <li><a href="https://jesstsomethoughts.wordpress.com/about/" class="main-link">ABOUT</a></li>
+                  <li>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</li>
+                  <li><a href="https://jesstsomethoughts.wordpress.com/blog-feed/" class="main-link">BLOG POSTS</a></li>
+                  <li>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;</li>
+                  <li><a href="https://jesstsomethoughts.wordpress.com/stay-updated/" class="main-link">STAY UPDATED!</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
 
         <h1>Welcome to a new blog page!</h1>
         <h2>This is my attempt to code a page instead of putting it directly into Wordpress.</h2>
