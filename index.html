@@ -10,42 +10,39 @@
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
         <style>
 
-            @media screen and (max-width: 1060px) {
+            @media screen and (max-width: 768px) {
                 #primary { width:100%; }
                 #secondary { width:100%;}  
             }
-
-            /* @media screen and (max-width: 768px) {
-                #primary { width:100%; }
-                #secondary { width:100%; margin:0; border:none; }
-
-            @media screen and (max-width: 480px) {
-                #primary { width:100%; }
-                #secondary { width:100%; margin:0; border:none; }
-
-            @media screen and (max-width: 320px) {
-                #primary { width:100%; }
-                #secondary { width:100%; margin:0; border:none; }    
-
-            @media screen and (max-width: 240px) {
-                #primary { width:100%; }
-                #secondary { width:100%; margin:0; border:none; } */
 
             h1 {
                 font-family:"Oswald","PT Sans",sans-serif;
                 font-weight:100;
                 font-size:50px;
-                text-align: center;
-                color:darkslategray;
+                text-align: left;
+                color:black;
+                margin-left:20px;
             }
 
             h2 {
                 font-family:"Oswald","PT Sans",sans-serif;
-                text-align: center;
-                color:darkslategray;
+                text-align: left;
+                color:black;
+                margin-left:20px;
             }
+            
+            h3 {
+                font-family:"Oswald","PT Sans",sans-serif;
+                text-align: left;
+                color:black;
+                margin-left:20px; 
+            }
+
             body {
                 font-family:"PT Sans", "Calibri",sans-serif;
+            }
+            p {
+                margin-left:20px;
             }
             .media {
                 text-align:center;
@@ -58,7 +55,7 @@
                 background-color:rgba(0,0,0,0.8);
                 margin-top:-10px;
                 margin-left:-10px;
-                height:20px;
+                height:25px;
                 padding:10px;
             }
             .header {
@@ -68,52 +65,15 @@
 
             }
 
-            @media screen and (max-width:768 px) {
-                .header header-text {
-                    font-size:15px;
-                }
-                .header header2 {
-                    font-size:7px;
-                }
-            }
-
-            .header .header-image {
-                width:102%;
+            .header-image {
+                width:105%;
                 margin-top:-10px;
                 margin-left:-10px;
                 padding:0px;
                 margin-bottom:-5px;
+                height:50%;
+                overflow:hidden;
 
-            }
-
-            @media screen and (max-width:768 px) {
-                .header .header box {
-                position: absolute;
-                z-index: 2;
-                margin: 0 auto;
-                left: 0;
-                right: 0;
-                text-align: center;
-                top: 5%;
-                background: rgba(0,0,0,0.8);
-                font-family: "PT Sans",sans-serif;
-                width:40%;
-                }
-            }
-
-            @media screen and (max-width:320px) {
-                .header .header box {
-                position: absolute;
-                z-index: 2;
-                margin: 0 auto;
-                left: 0;
-                right: 0;
-                text-align: center;
-                top: 5%;
-                background: rgba(0,0,0,0.8);
-                font-family: "PT Sans",sans-serif;
-                width:80%;
-                }
             }
 
             .header .header-box {
@@ -130,6 +90,27 @@
             }
             .header .header-text {
                 color:white;
+                text-align:center;
+                margin-left:0px;
+            }
+
+
+            @media screen and (min-width:768 px) {
+                .header header-text {
+                    font-size:20px;
+                }
+                .header header2 {
+                    font-size:10px;
+                }
+                .header-image {
+                    width:105%;
+                    margin-top:-10px;
+                    margin-left:-10px;
+                    padding:0px;
+                    margin-bottom:-5px;
+                    height:500px;
+                    overflow:hidden;
+                }
             }
 
             .main-link {
@@ -144,6 +125,8 @@
             .header #header2 {
                 color:white;
                 font-size:20px;
+                text-align:center;
+                margin-left:0px;
             }
 
             .page-labels {
@@ -170,7 +153,7 @@
 
             .navbar-default .navbar-nav>li>a {
                 color: #FFF;
-                font-size:13px;
+                font-size:11px;
             }
             .navbar-default .navbar-brand {
                 color: #FFF;
@@ -182,11 +165,11 @@
             .navbar-default .navbar-brand:hover {
                 color: #DDD;
             }
-            /* .navbar-default {
+            .navbar-default {
                 border-radius: 0;
                 border:none;
                 margin-bottom:0;
-            } */
+            }
             .navbar-brand img {
                 height:45px;
             }
@@ -203,7 +186,7 @@
 
             @media screen and (min-width: 768px) {
                 .navbar-default {
-                    box-shadow:0px 0px 10px black;
+                    box-shadow:0px 0px 10px rgba(0,0,0,0.8);
                 }
                 .navbar-default .navbar-nav>li>a {
                     padding: 15px 20px 12px 20px;
@@ -236,7 +219,26 @@
                 .navbar-header {
                     height:0px;
                 }
+            }  
+            .list {
+                margin-left:30px;
+                color:black;
             }   
+
+            .list>li>a:link {
+                color:black;
+                text-decoration:none;
+            }
+
+            .list>li>a:visited {
+                color:black;
+                text-decoration:none;
+            }
+
+            .list>li>a:hover {
+                color:hotpink;
+            } 
+            
 
         </style>
     </head>
@@ -245,29 +247,23 @@
         <div class="graybar">
         </div>
         <div class="header">
-            <img class="header-image" src="IMG_6290.JPG" alt="Jess(t) My Thoughts">
+            <img class="header-image" src="green.jpg" alt="Jess(t) My Thoughts">
             <div class="header-box">
                 <h1 class="header-text" style="font-size:3vw;"><a href="http://jesstsomethoughts.github.io" class="main-link">JESS(T) MY THOUGHTS 2.0</a></h1>
                 <h2 id="header2" style="font-size:1.5vw;">Random musings while trying to code</h2>
             </div>
         </div>
-        <!-- <div class="page-labels">
-            <p id="labels"><a href="http://jesstsomethoughts.github.io" class="main-link">&nbsp;&nbsp;HOME</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                <a href="https://jesstsomethoughts.wordpress.com/about/" class="main-link">ABOUT</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                <a href="https://jesstsomethoughts.wordpress.com/blog-feed/" class="main-link">BLOG POSTS</a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-                <a href="https://jesstsomethoughts.wordpress.com/stay-updated/" class="main-link">STAY UPDATED!</a></p>
-        </div> -->
 
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
-              <div class="navbar-header">
+              <!-- <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
                     <span class="sr-only"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              </div>
+              </div> -->
               <div class="collapse page-labels" id="main-nav">
                 <ul class="nav navbar-nav" id="labels">
                   <li><a href="http://jesstsomethoughts.github.io" class="main-link">HOME</a></li>
@@ -282,12 +278,39 @@
             </div>
         </nav>
 
-        <h1>Welcome to a new blog page!</h1>
-        <h2>This is my attempt to code a page instead of putting it directly into Wordpress.</h2>
-        <h2>This way, I can do cool things and learn code!</h2>
-        <div class="media">
-            <img src="High School/Prom Photos!/me standing.jpg" width="401.6" height="601.6">
-            <p>This is a picture of me. I'm not a huge fan of pictures, but they are nice sometimes.</p>
+        <h1>coding; lonely, together!</h1>
+        <h2>Welcome to another blog landing page!</h2>
+        <div class="writing">
+            <p>This is my attempt to code a page instead of putting it directly into Wordpress. This way, I can do cool things and learn code!
+            Unfortunately, I am a pure amateur, so please open this on a full-screen laptop page. It will not work on smaller screens at the moment.
+            I tried, but alas failed, as I barely know CSS and don't know Javascript.
+            </p>
+
+            <p>
+                Anyway, hello hello! Welcome to my new temporary site, where I’m attempting to recreate what I had on the Wordpress page from purely HTML and CSS. 
+                As I’m writing this, I realize that there is perhaps too much content I would like to cover in just one post, 
+                but I will still try but aim to condense it and group them into broad, not properly named categories. Click below to toggle around them:
+            </p>
+
+            <ol class="list">
+                <li><a href="#loneliness">Loneliness</a></li>
+                <li><a href="#emotions">Emotions</a></li>
+                <li><a href="#coding">Coding</a></li>
+                <li><a href="#covers">Singing/Covers?</a></li>
+            </ol>
+
+            <h3 id="loneliness">
+                LONELINESS
+            </h3>
+
+            <p>
+                I recently (as in two months ago) finished reading “Together” by Vivek Murthy, the former U.S. Surgeon General. 
+                It’s a book about loneliness, and I really recommend it — super insightful! 
+                I thought I'd note down here some lessons that I learned.
+            </p>
+        </div>
+        <div class="media" id="covers">
+            <h3>COVERS</h3>
             <video id="slow-down" width="320" height="180" controls>
                 <source src="test.mp4" type="video/mp4">
             </video>
