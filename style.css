@@ -3,6 +3,10 @@
     #secondary { width:100%;}  
 }
 
+hr.line {
+    border: 1px solid darkslategray;
+}
+
 h1 {
     font-family:"Oswald","PT Sans",sans-serif;
     font-weight:100;
