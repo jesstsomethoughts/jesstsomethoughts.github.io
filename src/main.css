@@ -1,0 +1,450 @@
+
+
+body {
+    font-family: 'Open Sans';
+}
+
+/* HOME BANNER SECTION */
+
+.home {
+    position: relative;
+    height: 725px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/backgrounds/mt_tam.jpg) no-repeat top center;
+    background-size: cover !important;
+        -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;  
+}
+
+.home:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.home .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background: black;
+    opacity: 50%;
+    border-radius: 30px;
+}
+
+.banner h1 {
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    font-family: 'Open Sans';
+    color: #c7edfc;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    opacity: 100%;
+ }
+.banner h3 {
+    font: 18px/1.9em 'opensans-regular', sans-serif;
+    font-family: 'Open Sans';
+    color: white;
+    margin: 0 auto 20px auto;
+    width: 80%;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+    opacity: 100%;
+ }
+
+ .emphasis {
+     color: #c7edfc;
+     font-size: 20px;
+ }
+
+ .socials {
+    color: #c7edfc;
+    margin: 20px;
+ }
+
+#resume_button {
+    color: #c7edfc !important;
+    text-transform: uppercase;
+    font: 18px/24px 'opensans-bold', sans-serif;
+    font-family: 'Open Sans';
+    font-weight: bold;
+ }
+
+.scrolldown a {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    margin-left: -29px;
+    color: #c7edfc;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    border-radius: 100%;
+ 
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+ }
+.scrolldown a:hover { color: #fff; }
+
+/* EXPERIENCES SECTION */
+
+ #experiences {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+    width: 75%;
+ }
+
+ #experiences h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+ }
+
+ #experiences h1 span {
+    border-bottom: 3px solid #c7edfc;
+    padding-bottom: 6px;
+ }
+
+ #experiences h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+ }
+
+ #experiences .header-col { padding-top: 9px; }
+ #experiences .main-col { padding-right: 10%; }
+
+ .education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+ }
+
+ #experiences .info {
+    font: 18px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+    font-style: italic;
+ }
+
+ #experiences .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+
+ #experiences .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+ }
+
+#font {
+    text-transform: uppercase;
+    font: 18px/24px 'opensans-bold', sans-serif;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+#projects h1 {
+    text-transform: uppercase;
+    font: 35px/30px 'opensans-light', sans-serif;
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+
+.g-4 {
+    padding-top: 50px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.card img {
+    object-fit:cover;
+    height:200px !important;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* PUBLICATIONS SECTION */
+#publications {
+    background: #fff;
+    padding-top: 90px;
+    overflow: hidden;
+    text-align: center;
+ }
+
+.pubs {
+    width: 75%;
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+.db, .pending {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+ #publications h1 {
+    text-transform: uppercase;
+    font: 35px/30px 'opensans-light', sans-serif;
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+
+ #publications h2 {
+    font: 18px/24px sans-serif;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 20px;
+ }
+
+ #publications h2 span {
+    border-bottom: 3px solid #c7edfc;
+    padding-bottom: 6px;
+ }
+
+ #publications h3 {
+    font: 25px/30px 'opensans-regular', sans-serif;
+    font-family: 'Open Sans';
+    text-align: left;
+ }
+
+ #publications a {
+     text-decoration: none;
+     color: black;
+ }
+
+ #publications a {
+    text-decoration: none;
+    color: black;
+}
+
+#publications a:hover {
+    color: lightskyblue;
+}
+
+ #publications p {
+     text-align: left;
+ }
+
+ #publications .entry {
+     margin-bottom: 30px;
+ }
+
+ #publications #db_link {
+    font: 18px/24px 'opensans-light', sans-serif;
+ }
+
+ #publications .header-col { padding-top: 9px; }
+ #publications .main-col { padding-right: 10%; }
+
+ .education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+ }
+
+ #publications .info {
+    font: 16px/22px 'opensans-light', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+ }
+
+ #publications .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+
+ #publications .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+ }
+
+/* ABOUT SECTION */
+#about {
+    background: #ebeeee;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden; 
+}
+
+#about h1 {
+    text-transform: uppercase;
+    font: 28px/24px 'opensans-light', sans-serif;
+    padding-bottom: 30px;
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+
+#about h2 {
+    font: 18px/30px 'opensans-light', sans-serif;
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+
+.about-section {
+    width: 75%;
+}
+
+#about .me-img {
+    position: relative;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.description {
+    margin-left: 50px;
+}
+
+.about-row {
+    padding-bottom: 30px;
+}
+
+#about .last-row {
+    text-align: center;
+}
+
+/* FOOTER SECTION */
+#footer {
+    padding-top: 50px;
+    padding-bottom: 5px;
+    background-color: #292b2c;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+
+.bottom-text {
+    margin-top: 20px;
+    color: white;
+}
+
+#go-top {
+	position: absolute;
+	top: -35px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 60px;
+	height: 60px;
+
+	-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    color: #c7edfc;
+    font-size: 21px;
+    line-height: 60px;
+    border-radius: 100%;
+    background-color: lightslategray;
+}
+
+#go-top a:hover { background-color: #292b2c; }
+
+
+/* ==================================================================
+
+Responsive Styling!
+
+/* ================================================================== */
+
+/* HOME PAGE
+/* screenwidth less than 1024px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+   .home .banner {
+       width: 80%;
+   }
+   
+   .banner h1 {
+      font: 80px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;
+      margin: 0 auto 12px auto;
+   }
+
+   .about-section {
+       width: 90%;
+   }
+
+   .me-img {
+       margin-top: 50px;
+    }
+
+}
+
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+   .home .banner { 
+       padding-bottom: 12px; 
+       width: 90%;
+    }
+   .banner h1 {
+      font: 60px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;      
+   }
+   .banner h3 {
+      font: 16px/1.9em 'opensans-regular', serif;
+      width: 80%;
+   }
+
+      /* About Section
+   ------------------------------------------------------------------- */
+   #about .me-img {
+        margin-bottom: 50px;
+    }
+
+    .description {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #about .last-row {
+        margin: auto 10px auto 10px;
+    }
+}
+
+
+
