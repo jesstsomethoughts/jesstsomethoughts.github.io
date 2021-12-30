@@ -113,7 +113,7 @@ class Projects extends React.Component {
                         </Col>
                     {/* ))} */}
                     </Row>
-                    <Row xs={1} md={2} lg={4} className="g-4">
+                    {/* <Row xs={1} md={2} lg={4} className="g-4">
                         <Col>
                             <Card className="card">
                                 <a href="https://www.youtube.com/watch?v=AajTGdUy_Y4&ab_channel=PasifikaByDesign" target="_blank">
@@ -136,7 +136,7 @@ class Projects extends React.Component {
                                 </a>
                             </Card>
                         </Col>
-                    </Row>
+                    </Row> */}
                 </Container>
             </section>
           </>
