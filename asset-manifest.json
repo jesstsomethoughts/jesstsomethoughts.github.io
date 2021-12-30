@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.450b55f5.css",
-    "main.js": "/static/js/main.04255729.js",
+    "main.js": "/static/js/main.530670b5.js",
     "static/js/787.e5df36f1.chunk.js": "/static/js/787.e5df36f1.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.4bf02e127d2d12ddf5fe.jpg",
     "static/media/metanoia.png": "/static/media/metanoia.907f208a2dbcef40e36f.png",
@@ -9,19 +9,20 @@
     "static/media/mt_tam.jpg": "/static/media/mt_tam.9150224c6e1e074ab988.jpg",
     "static/media/infstd.pdf": "/static/media/infstd.b2b3aae753efcf453030.pdf",
     "static/media/mentalhealth.pdf": "/static/media/mentalhealth.5efeae1d50078d1d5866.pdf",
+    "static/media/kovikitalk.jpeg": "/static/media/kovikitalk.3492fc402703188c29c8.jpeg",
     "static/media/escaperoom.png": "/static/media/escaperoom.e19b3351536aae018ad6.png",
     "static/media/vax.jpg": "/static/media/vax.a07a40279b9f593d1e55.jpg",
-    "static/media/temp_resume.pdf": "/static/media/temp_resume.a5c77f0b7d85bfa83f92.pdf",
+    "static/media/RESUME_dec_2021.pdf": "/static/media/RESUME_dec_2021.1bc02ea7353086932811.pdf",
     "static/media/OpenSans-Bold-webfont.ttf": "/static/media/OpenSans-Bold-webfont.7c6331ddcf6dc0167f31.ttf",
     "static/media/OpenSans-Regular-webfont.ttf": "/static/media/OpenSans-Regular-webfont.8fb0006312b4968c978e.ttf",
     "static/media/OpenSans-Light-webfont.ttf": "/static/media/OpenSans-Light-webfont.f427bc328a7e5a3ad92e.ttf",
     "index.html": "/index.html",
     "main.450b55f5.css.map": "/static/css/main.450b55f5.css.map",
-    "main.04255729.js.map": "/static/js/main.04255729.js.map",
+    "main.530670b5.js.map": "/static/js/main.530670b5.js.map",
     "787.e5df36f1.chunk.js.map": "/static/js/787.e5df36f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.450b55f5.css",
-    "static/js/main.04255729.js"
+    "static/js/main.530670b5.js"
   ]
 }
