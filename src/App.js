@@ -37,3 +37,4 @@ export default App;
 // 7. skills section
 // 8. about indents!
 // 9. add more here
+// 10. add lab projects? SIR model, CDC scraper, Tableau dashboards, Koviki Talks

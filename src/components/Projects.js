@@ -4,6 +4,7 @@ import MetanoiaImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.git
 import EscapeImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/escaperoom.png';
 import DhImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/dh.png';
 import VaxImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/vax.jpg';
+import PodcastImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/kovikitalk.jpeg';
 
 // react components
 import { Link } from "react-router-dom";
@@ -111,6 +112,30 @@ class Projects extends React.Component {
                             </Card>
                         </Col>
                     {/* ))} */}
+                    </Row>
+                    <Row xs={1} md={2} lg={4} className="g-4">
+                        <Col>
+                            <Card className="card">
+                                <a href="https://www.youtube.com/watch?v=AajTGdUy_Y4&ab_channel=PasifikaByDesign" target="_blank">
+                                <Card.Img variant="top" src={PodcastImg} />
+                                <Card.Body>
+                                <Card.Title>Koviki Talk Podcast <ImLink/></Card.Title>
+                                <Card.Text>COVID-19 data analysis for NHPI Lab credited in the following podcast.</Card.Text>
+                                </Card.Body>
+                                </a>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="card">
+                                <a href="https://www.youtube.com/watch?v=AajTGdUy_Y4&ab_channel=PasifikaByDesign" target="_blank">
+                                <Card.Img variant="top" src={PodcastImg} />
+                                <Card.Body>
+                                <Card.Title>SIR Model <ImLink/></Card.Title>
+                                <Card.Text>Python script that simulates simplified SIR model of disease spread.</Card.Text>
+                                </Card.Body>
+                                </a>
+                            </Card>
+                        </Col>
                     </Row>
                 </Container>
             </section>
