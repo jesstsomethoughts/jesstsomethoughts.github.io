@@ -84,7 +84,7 @@ class Projects extends React.Component {
                                 <Card.Img variant="top" src={MetanoiaImg} />
                                 <Card.Body>
                                 <Card.Title className="card-title">Metanoia <ImLink/></Card.Title>
-                                <Card.Text className="card-title">React-based website for the startup company I co-founded, featuring a virtual library and subscription page</Card.Text>
+                                <Card.Text className="card-title">React-based prototype for the startup company I co-founded, featuring a virtual library and subscription page</Card.Text>
                                 </Card.Body>
                                 </a>
                             </Card>
