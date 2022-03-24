@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.450b55f5.css",
-    "main.js": "/static/js/main.e7fd7b66.js",
+    "main.js": "/static/js/main.e92e7eb5.js",
     "static/js/787.e5df36f1.chunk.js": "/static/js/787.e5df36f1.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.4bf02e127d2d12ddf5fe.jpg",
     "static/media/metanoia.png": "/static/media/metanoia.907f208a2dbcef40e36f.png",
@@ -18,11 +18,11 @@
     "static/media/OpenSans-Light-webfont.ttf": "/static/media/OpenSans-Light-webfont.f427bc328a7e5a3ad92e.ttf",
     "index.html": "/index.html",
     "main.450b55f5.css.map": "/static/css/main.450b55f5.css.map",
-    "main.e7fd7b66.js.map": "/static/js/main.e7fd7b66.js.map",
+    "main.e92e7eb5.js.map": "/static/js/main.e92e7eb5.js.map",
     "787.e5df36f1.chunk.js.map": "/static/js/787.e5df36f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.450b55f5.css",
-    "static/js/main.e7fd7b66.js"
+    "static/js/main.e92e7eb5.js"
   ]
 }
