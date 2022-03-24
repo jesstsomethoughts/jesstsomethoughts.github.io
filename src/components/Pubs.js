@@ -23,6 +23,10 @@ class Pubs extends React.Component {
                     
                         <Col className="nine columns main-col" sm={9}>
                             <Row className="entry">
+                                <a href="https://stack.dailybruin.com/2022/03/10/prof-reviews/"><h3>Gendered language in Bruinwalk reviews</h3></a>
+                                <p className="info">Analyzed professor reviews with a combination of Python and Javascript libraries as part of the Stack, Daily Bruin's data journalism blog.</p>
+                            </Row>
+                            <Row className="entry">
                                 <a href="https://dailybruin.com/2021/06/10/in-the-heights-seeks-to-represent-latino-community-inspire-pursuit-of-dreams" target="_blank"><h3>‘In the Heights’ seeks to represent Latino community, inspire pursuit of dreams</h3></a>
                                 <p className="info">Interviewed Lin Manuel Miranda, Corey Hawkins, Leslie Grace, Melissa Barrera, and more of the cast for a feature on musical film "In the Heights."</p>
                             </Row>
@@ -49,15 +53,11 @@ class Pubs extends React.Component {
                         <Col className="nine columns main-col" sm={9}>
                             <Row className="entry">
                                 <a href={InfStdPaper} target="_blank"><h3>Redefining Power Structures Surrounding Healthcare and Data Privacy</h3></a>
-                                <p className="info">Manuscript pending publication. Originally written for a graduate seminar on Global Media and Information under Professor Ramesh Srinivasan. Focuses on the increasing shift to digital technologies in medicine and the privacy concerns that arise as a result.</p>
+                                <p className="info">Manuscript in editing stage, pending publication. Originally written for a graduate seminar on Global Media and Information under Professor Ramesh Srinivasan. Focuses on the increasing shift to digital technologies in medicine and the privacy concerns that arise as a result.</p>
                             </Row>
                             <Row className="entry">
                                 <a href={MentalHealthPaper} target="_blank"><h3>Mental Health in College Students Who Are Experiencing Homelessness or Housing Insecurity</h3></a>
                                 <p className="info">Manuscript pending publication. Written as a part of UCLA's Depression Grand Challenge to provide a literature review to supplement the upcoming launch of the online cognitive behavioral therapy (CBT) program.</p>
-                            </Row>
-                            <Row className="entry">
-                                <h3>Daily Bruin's The Stack - Professor Reviews</h3>
-                                <p className="info">Currently analyzing professor reviews and difference in sentiments based on professor gender for the Stack, Daily Bruin's data and tech blog. Working with 5 others to create interactive visualizations and conduct interviews for the article.</p>
                             </Row>
                         </Col>
                     </Row>
