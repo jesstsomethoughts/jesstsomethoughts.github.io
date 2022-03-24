@@ -23,7 +23,7 @@ class Pubs extends React.Component {
                     
                         <Col className="nine columns main-col" sm={9}>
                             <Row className="entry">
-                                <a href="https://stack.dailybruin.com/2022/03/10/prof-reviews/"><h3>Gendered language in Bruinwalk reviews</h3></a>
+                                <a href="https://stack.dailybruin.com/2022/03/10/prof-reviews/" target="_blank"><h3>Gendered language in Bruinwalk reviews</h3></a>
                                 <p className="info">Analyzed professor reviews with a combination of Python and Javascript libraries as part of the Stack, Daily Bruin's data journalism blog.</p>
                             </Row>
                             <Row className="entry">
