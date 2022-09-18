@@ -1,6 +1,5 @@
 import React from 'react';
 import '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/main.css';
-import InfStdPaper from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/files/infstd.pdf';
 import MentalHealthPaper from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/files/mentalhealth.pdf';
 
 import Col from 'react-bootstrap/Col';
@@ -52,7 +51,7 @@ class Pubs extends React.Component {
 
                         <Col className="nine columns main-col" sm={9}>
                             <Row className="entry">
-                                <a href={InfStdPaper} target="_blank"><h3>Redefining Power Structures Surrounding Healthcare and Data Privacy</h3></a>
+                                <a href="https://escholarship.org/uc/item/48s3n1ws" target="_blank"><h3>Redefining Power Structures Surrounding Healthcare and Data Privacy</h3></a>
                                 <p className="info">Manuscript in editing stage, pending publication. Originally written for a graduate seminar on Global Media and Information under Professor Ramesh Srinivasan. Focuses on the increasing shift to digital technologies in medicine and the privacy concerns that arise as a result.</p>
                             </Row>
                             <Row className="entry">
