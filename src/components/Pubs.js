@@ -43,6 +43,19 @@ class Pubs extends React.Component {
                         </Row>
                     </Row>
 
+                    <Row className="row db">
+                        <Col className="three columns header-col">
+                                <h2><span>Other Publications</span></h2>
+                        </Col>
+
+                        <Col className="nine columns main-col" sm={9}>
+                            <Row className="entry">
+                                <a href="https://escholarship.org/uc/item/48s3n1ws" target="_blank"><h3>Redefining Power Structures Surrounding Healthcare and Data Privacy</h3></a>
+                                <p className="info">Published in Aleph Journal at UCLA. Originally written for a graduate seminar on Global Media and Information under Professor Ramesh Srinivasan. Focuses on the increasing shift to digital technologies in medicine and the privacy concerns that arise as a result.</p>
+                            </Row>
+                        </Col>
+                    </Row>
+
                     <Row className="row pending">
                         <Col className="three columns header-col">
                             <h2><span>In Progress</span></h2>
@@ -50,10 +63,6 @@ class Pubs extends React.Component {
                         </Col>
 
                         <Col className="nine columns main-col" sm={9}>
-                            <Row className="entry">
-                                <a href="https://escholarship.org/uc/item/48s3n1ws" target="_blank"><h3>Redefining Power Structures Surrounding Healthcare and Data Privacy</h3></a>
-                                <p className="info">Manuscript in editing stage, pending publication. Originally written for a graduate seminar on Global Media and Information under Professor Ramesh Srinivasan. Focuses on the increasing shift to digital technologies in medicine and the privacy concerns that arise as a result.</p>
-                            </Row>
                             <Row className="entry">
                                 <a href={MentalHealthPaper} target="_blank"><h3>Mental Health in College Students Who Are Experiencing Homelessness or Housing Insecurity</h3></a>
                                 <p className="info">Manuscript pending publication. Written as a part of UCLA's Depression Grand Challenge to provide a literature review to supplement the upcoming launch of the online cognitive behavioral therapy (CBT) program.</p>

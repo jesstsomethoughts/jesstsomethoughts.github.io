@@ -1,7 +1,7 @@
 import React from 'react';
 import '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/main.css';
 
-import Resume from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/files/RESUME_sept_2022.pdf';
+import Resume from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/files/w2023_Resume.pdf';
 
 import Button from 'react-bootstrap/Button';
 
