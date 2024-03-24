@@ -1,10 +1,13 @@
 import React from 'react';
 import '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/main.css';
 import MetanoiaImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/metanoia.png';
-import EscapeImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/escaperoom.png';
-import DhImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/dh.png';
-import VaxImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/vax.jpg';
-import PodcastImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/kovikitalk.jpeg';
+// import EscapeImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/escaperoom.png';
+// import DhImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/dh.png';
+import VaxImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/vax.png';
+// import PodcastImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/kovikitalk.jpeg';
+import DashboardImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/nhpi_dashboard.png';
+import sfHackImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/sfHackImg.jpeg';
+
 
 // react components
 import { Link } from "react-router-dom";
@@ -60,7 +63,7 @@ class Projects extends React.Component {
           <>
             <section id="projects">
                 <h1>Projects</h1>
-                <h6>(lab-based and backend projects available upon request)</h6>
+                <h6>(more projects at my <a href="https://github.com/jesstsomethoughts?tab=repositories" target="_blank">Github</a> and upon request)</h6>
                 <Container className="card_group">
                     <Row xs={1} md={2} lg={4} className="g-4">
                     {/* {Array.from({ length: 4 }).map((_, idx) => ( */}
@@ -73,40 +76,40 @@ class Projects extends React.Component {
                                 <Card.Img variant="top" src={VaxImg} className="card-img" />
                                 <Card.Body>
                                 <Card.Title>Find My Vax SC <ImLink/></Card.Title>
-                                <Card.Text>React frontend, Python and SQL backend website centralizing COVID-19 vaccine appointments</Card.Text>
+                                <Card.Text>React frontend connected to Python website scraper and Twitter bot centralizing COVID-19 vaccine appointments in Santa Clara County - garnered 10,000+ site visitors and collabs with Gardner Health Services</Card.Text>
                                 </Card.Body>
                                 </a>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="card">
-                                <a href="https://metanoia-books.herokuapp.com/" target="_blank">
+                                <a href="https://github.com/jesstsomethoughts/metanoia" target="_blank">
                                 <Card.Img variant="top" src={MetanoiaImg} />
                                 <Card.Body>
                                 <Card.Title className="card-title">Metanoia <ImLink/></Card.Title>
-                                <Card.Text className="card-title">React-based prototype for the startup company I co-founded, featuring a virtual library and subscription page</Card.Text>
+                                <Card.Text className="card-title">React-based prototype for the startup company I co-founded, featuring a virtual library aimed at fostering conversations about difficult topics for children</Card.Text>
                                 </Card.Body>
                                 </a>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="card">
-                                <a href="https://capublichealth.humspace.ucla.edu/" target="_blank">
-                                <Card.Img variant="top" src={DhImg} />
+                                <a href="https://healthpolicy.ucla.edu/our-work/nhpi-data-policy-lab/nhpi-data-policy-lab-data-dashboards" target="_blank">
+                                <Card.Img variant="top" src={DashboardImg} />
                                 <Card.Body>
-                                <Card.Title>Mental Health in CA <ImLink/></Card.Title>
-                                <Card.Text>Digital Humanities 101 project analyzing public health dataset via R, Tableau, and other software</Card.Text>
+                                <Card.Title>NHPI Health Dashboards <ImLink/></Card.Title>
+                                <Card.Text>Processed public data using Python and R to visualize on Tableau dashboards on social determinants of health and COVID-19 deaths for the Native Hawaiian and Pacific Islander (NHPI) community</Card.Text>
                                 </Card.Body>
                                 </a>
                             </Card>
                         </Col>
                         <Col>
                             <Card className="card">
-                                <a href="https://jesstsomethoughts.github.io/findingbruin/" target="_blank">
-                                <Card.Img variant="top" src={EscapeImg} />
+                                <a href="https://github.com/Justinyu1618/accelSF-service-router" target="_blank">
+                                <Card.Img variant="top" src={sfHackImg} />
                                 <Card.Body>
-                                <Card.Title>Finding Bruin <ImLink/></Card.Title>
-                                <Card.Text>Escape room built with HTML, CSS, and Javascript for UCLA Creative Labs' Bloom Fellowship.</Card.Text>
+                                <Card.Title>Service Router Chatbot <ImLink/></Card.Title>
+                                <Card.Text>Python and LLM-based chatbot that automates the identification and matching of client needs to appropriate public benefits and services in SF</Card.Text>
                                 </Card.Body>
                                 </a>
                             </Card>

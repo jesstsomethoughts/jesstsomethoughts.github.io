@@ -53,6 +53,11 @@ class Pubs extends React.Component {
                                 <a href="https://escholarship.org/uc/item/48s3n1ws" target="_blank"><h3>Redefining Power Structures Surrounding Healthcare and Data Privacy</h3></a>
                                 <p className="info">Published in Aleph Journal at UCLA. Originally written for a graduate seminar on Global Media and Information under Professor Ramesh Srinivasan. Focuses on the increasing shift to digital technologies in medicine and the privacy concerns that arise as a result.</p>
                             </Row>
+
+                            <Row className="entry">
+                                <a href="https://escholarship.org/uc/item/9wg9w8z4" target="_blank"><h3>How Paul Landacre’s Wood Engravings of the Coachella Valley Region Reflect the Erasure of Indigenous Populations in an Emerging Capitalist Framework</h3></a>
+                                <p className="info">Written as part of an Information Studies seminar I took under Professor Johanna Drucker, this paper won the UCLA Library Prize in 2023 and later was published here!</p>
+                            </Row>
                         </Col>
                     </Row>
 

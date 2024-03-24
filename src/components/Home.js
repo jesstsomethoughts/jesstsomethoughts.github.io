@@ -1,7 +1,7 @@
 import React from 'react';
 import '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/main.css';
 
-import Resume from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/files/w2023_Resume.pdf';
+import Resume from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/files/s2024_Resume.pdf';
 
 import Button from 'react-bootstrap/Button';
 
@@ -9,12 +9,54 @@ import { FaLinkedin, FaGithub} from "react-icons/fa";
 import { IoMdMail, IoIosArrowDown } from "react-icons/io";
 import { ImLink } from 'react-icons/im';
 
+// import all background images from folder
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const images = importAll(require.context('../backgrounds', false, /\.(png|jpe?g|svg)$/));
+
 class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      backgroundImages: images, 
+      currentIndex: 5
+    };
+  }
+
+  changeBackgroundImage = () => {
+    this.setState((prevState) => ({
+      currentIndex: (prevState.currentIndex + 1)% prevState.backgroundImages.length
+    }));
+  }
+
+  preloadImages() {
+    this.state.backgroundImages.forEach((imageUrl) => {
+      const img = new Image();
+      img.src = imageUrl;
+    });
+  }
+
+  componentDidMount() {
+    this.preloadImages();
+    this.intervalId = setInterval(this.changeBackgroundImage, 3000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.intervalId);
+  }
+
   render() {
+    const { backgroundImages, currentIndex } = this.state;
+
     return (
         <>
         <section id="home"></section>
-        <div className="home">
+        <div 
+          className="home"
+          style={{ background: `#161415 url(${backgroundImages[currentIndex]}) no-repeat top center` }}
+          > 
           <div className="banner">
             <h1>Hi, I'm Jessica!</h1>
             <h3>Simply, a human being driven by <span className="emphasis">empathy</span> and <span className="emphasis">social good</span>. Interested in the intersections of data, healthcare, education, and technology.</h3>

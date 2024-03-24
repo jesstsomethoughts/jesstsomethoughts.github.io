@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.450b55f5.css",
-    "main.js": "/static/js/main.7575067d.js",
+    "main.js": "/static/js/main.87036ec4.js",
     "static/js/787.e5df36f1.chunk.js": "/static/js/787.e5df36f1.chunk.js",
     "static/media/headshot.jpg": "/static/media/headshot.4bf02e127d2d12ddf5fe.jpg",
     "static/media/metanoia.png": "/static/media/metanoia.907f208a2dbcef40e36f.png",
@@ -11,17 +11,17 @@
     "static/media/kovikitalk.jpeg": "/static/media/kovikitalk.3492fc402703188c29c8.jpeg",
     "static/media/escaperoom.png": "/static/media/escaperoom.e19b3351536aae018ad6.png",
     "static/media/vax.jpg": "/static/media/vax.a07a40279b9f593d1e55.jpg",
-    "static/media/RESUME_sept_2022.pdf": "/static/media/RESUME_sept_2022.e3e62e89560613428c37.pdf",
+    "static/media/w2023_Resume.pdf": "/static/media/w2023_Resume.80370b3859894e5685b1.pdf",
     "static/media/OpenSans-Bold-webfont.ttf": "/static/media/OpenSans-Bold-webfont.7c6331ddcf6dc0167f31.ttf",
     "static/media/OpenSans-Regular-webfont.ttf": "/static/media/OpenSans-Regular-webfont.8fb0006312b4968c978e.ttf",
     "static/media/OpenSans-Light-webfont.ttf": "/static/media/OpenSans-Light-webfont.f427bc328a7e5a3ad92e.ttf",
     "index.html": "/index.html",
     "main.450b55f5.css.map": "/static/css/main.450b55f5.css.map",
-    "main.7575067d.js.map": "/static/js/main.7575067d.js.map",
+    "main.87036ec4.js.map": "/static/js/main.87036ec4.js.map",
     "787.e5df36f1.chunk.js.map": "/static/js/787.e5df36f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.450b55f5.css",
-    "static/js/main.7575067d.js"
+    "static/js/main.87036ec4.js"
   ]
 }

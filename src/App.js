@@ -28,13 +28,13 @@ export default App;
 
 // TO DOS (refine the website!)
 // 1. make it more responsive!
-// 1.5 add experiences section!
+// 1.5 add experiences section! 
 // 2. configure array for project cards so there are less repeats in the code
-// 3. add rotating slide of background images and descriptions
+// 3. add rotating slide of background images and descriptions - done!
 // 4. alt text for all images
 // 5. check page/text contrasts, aka accessibility check
 // 6. add down arrow icon!
 // 7. skills section
 // 8. about indents!
 // 9. add more here
-// 10. add lab projects? SIR model, CDC scraper, Tableau dashboards, Koviki Talks
+// 10. add lab projects? SIR model paper!!!, CDC scraper, Tableau dashboards, Koviki Talks

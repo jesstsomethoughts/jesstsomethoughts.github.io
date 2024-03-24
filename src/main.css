@@ -13,9 +13,11 @@ body {
     width: 100%;
     background: #161415 url(/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/backgrounds/mt_tam.jpg) no-repeat top center;
     background-size: cover !important;
-        -webkit-background-size: cover !important;
+    background-position: center bottom 20% !important;
+    -webkit-background-size: cover !important;
     text-align: center;
-    overflow: hidden;  
+    overflow: hidden;
+    transition: background 0.3s ease; /* Transition for background change */
 }
 
 .home:before {
@@ -34,7 +36,7 @@ body {
     padding-bottom: 40px;
     text-align: center;
     background: black;
-    opacity: 50%;
+    opacity: 70%;
     border-radius: 30px;
 }
 
@@ -179,8 +181,8 @@ body {
 }
 
 .card img {
-    object-fit:cover;
-    height:200px !important;
+    object-fit:contain;
+    height:250px !important;
 }
 
 .card:hover {
