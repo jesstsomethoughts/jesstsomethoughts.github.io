@@ -1,27 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.450b55f5.css",
-    "main.js": "/static/js/main.87036ec4.js",
+    "main.css": "/static/css/main.1b84c027.css",
+    "main.js": "/static/js/main.fa0291fc.js",
     "static/js/787.e5df36f1.chunk.js": "/static/js/787.e5df36f1.chunk.js",
-    "static/media/headshot.jpg": "/static/media/headshot.4bf02e127d2d12ddf5fe.jpg",
+    "static/media/denver.jpg": "/static/media/denver.e92a5422ad6d007a7dff.jpg",
+    "static/media/headshot2.JPEG": "/static/media/headshot2.23c5dcec5d7c224b0317.JPEG",
+    "static/media/rainbow.jpg": "/static/media/rainbow.f6d0716ef3e67f59e745.jpg",
+    "static/media/kokohead.jpg": "/static/media/kokohead.c2c3dbfda3d0b1987c4a.jpg",
+    "static/media/beach.jpg": "/static/media/beach.4116c46591f008ce59d9.jpg",
+    "static/media/anza.jpg": "/static/media/anza.e481fdccac6858066c84.jpg",
+    "static/media/pinnacles.jpg": "/static/media/pinnacles.5a1f9f697c72a3b33436.jpg",
+    "static/media/zion.jpg": "/static/media/zion.c0621f3ac322b53b3c42.jpg",
+    "static/media/sunset.jpg": "/static/media/sunset.f00409eb74ec022bd3d6.jpg",
+    "static/media/mtns.jpg": "/static/media/mtns.06a92de2ed0f56807d38.jpg",
     "static/media/metanoia.png": "/static/media/metanoia.907f208a2dbcef40e36f.png",
-    "static/media/dh.png": "/static/media/dh.e8e0a6d8a0cfe90a8315.png",
+    "static/media/blackmountain.jpg": "/static/media/blackmountain.e30151546f40b910658e.jpg",
     "static/media/mt_tam.jpg": "/static/media/mt_tam.9150224c6e1e074ab988.jpg",
     "static/media/mentalhealth.pdf": "/static/media/mentalhealth.5efeae1d50078d1d5866.pdf",
-    "static/media/kovikitalk.jpeg": "/static/media/kovikitalk.3492fc402703188c29c8.jpeg",
-    "static/media/escaperoom.png": "/static/media/escaperoom.e19b3351536aae018ad6.png",
-    "static/media/vax.jpg": "/static/media/vax.a07a40279b9f593d1e55.jpg",
-    "static/media/w2023_Resume.pdf": "/static/media/w2023_Resume.80370b3859894e5685b1.pdf",
+    "static/media/vax.png": "/static/media/vax.87a012065b8cc915bc49.png",
+    "static/media/nhpi_dashboard.png": "/static/media/nhpi_dashboard.a147476e5ef62a2237a5.png",
+    "static/media/s2024_Resume.pdf": "/static/media/s2024_Resume.4214f47061d642ff071b.pdf",
     "static/media/OpenSans-Bold-webfont.ttf": "/static/media/OpenSans-Bold-webfont.7c6331ddcf6dc0167f31.ttf",
     "static/media/OpenSans-Regular-webfont.ttf": "/static/media/OpenSans-Regular-webfont.8fb0006312b4968c978e.ttf",
     "static/media/OpenSans-Light-webfont.ttf": "/static/media/OpenSans-Light-webfont.f427bc328a7e5a3ad92e.ttf",
+    "static/media/sfHackImg.jpeg": "/static/media/sfHackImg.842b2dc7b8a3a292a19b.jpeg",
     "index.html": "/index.html",
-    "main.450b55f5.css.map": "/static/css/main.450b55f5.css.map",
-    "main.87036ec4.js.map": "/static/js/main.87036ec4.js.map",
+    "main.1b84c027.css.map": "/static/css/main.1b84c027.css.map",
+    "main.fa0291fc.js.map": "/static/js/main.fa0291fc.js.map",
     "787.e5df36f1.chunk.js.map": "/static/js/787.e5df36f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.450b55f5.css",
-    "static/js/main.87036ec4.js"
+    "static/css/main.1b84c027.css",
+    "static/js/main.fa0291fc.js"
   ]
 }
