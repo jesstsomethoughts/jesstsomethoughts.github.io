@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b84c027.css",
-    "main.js": "/static/js/main.ce6c81de.js",
+    "main.js": "/static/js/main.9b8cb13b.js",
     "static/js/787.e5df36f1.chunk.js": "/static/js/787.e5df36f1.chunk.js",
     "static/media/denver.jpg": "/static/media/denver.e92a5422ad6d007a7dff.jpg",
     "static/media/headshot2.JPEG": "/static/media/headshot2.23c5dcec5d7c224b0317.JPEG",
@@ -19,18 +19,18 @@
     "static/media/mentalhealth.pdf": "/static/media/mentalhealth.5efeae1d50078d1d5866.pdf",
     "static/media/vax.png": "/static/media/vax.87a012065b8cc915bc49.png",
     "static/media/nhpi_dashboard.png": "/static/media/nhpi_dashboard.a147476e5ef62a2237a5.png",
-    "static/media/s2024_Resume.pdf": "/static/media/s2024_Resume.c1493f6e3d295e49fe96.pdf",
+    "static/media/oct2024_resume.pdf": "/static/media/oct2024_resume.00e93666e2e94d81842d.pdf",
     "static/media/OpenSans-Bold-webfont.ttf": "/static/media/OpenSans-Bold-webfont.7c6331ddcf6dc0167f31.ttf",
     "static/media/OpenSans-Regular-webfont.ttf": "/static/media/OpenSans-Regular-webfont.8fb0006312b4968c978e.ttf",
     "static/media/OpenSans-Light-webfont.ttf": "/static/media/OpenSans-Light-webfont.f427bc328a7e5a3ad92e.ttf",
     "static/media/sfHackImg.jpeg": "/static/media/sfHackImg.842b2dc7b8a3a292a19b.jpeg",
     "index.html": "/index.html",
     "main.1b84c027.css.map": "/static/css/main.1b84c027.css.map",
-    "main.ce6c81de.js.map": "/static/js/main.ce6c81de.js.map",
+    "main.9b8cb13b.js.map": "/static/js/main.9b8cb13b.js.map",
     "787.e5df36f1.chunk.js.map": "/static/js/787.e5df36f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b84c027.css",
-    "static/js/main.ce6c81de.js"
+    "static/js/main.9b8cb13b.js"
   ]
 }
