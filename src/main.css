@@ -11,7 +11,7 @@ body {
     height: 725px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/backgrounds/mt_tam.jpg) no-repeat top center;
+    background: #161415 url(./backgrounds/mt_tam.jpg) no-repeat top center;
     background-size: cover !important;
     background-position: center bottom 20% !important;
     -webkit-background-size: cover !important;

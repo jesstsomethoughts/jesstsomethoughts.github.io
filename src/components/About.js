@@ -1,7 +1,7 @@
 import React from 'react';
-import '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/main.css';
+import '../main.css';
 
-import Headshot from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/headshot2.JPEG';
+import Headshot from '../images/headshot2.JPEG';
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -23,7 +23,7 @@ class About extends React.Component {
                   
                   <Col sm={7} md={7} lg={8} className="description">
                     <h1>About Me</h1>
-                    <h2> <FaBriefcase /> &nbsp; Associate Software Engineer at ServiceNow </h2>
+                    <h2> <FaBriefcase /> &nbsp; Software Engineer at ServiceNow </h2>
                     <h2> <IoSchool /> &nbsp; Bachelor of Science in Computational and Systems Biology and Minor Digital Humanities Minor from UCLA
                     </h2>
                     <h2> <FaHiking /> &nbsp; I love hiking/being outdoors! The rotating landscape pics are of places I love - try to guess where they are! 

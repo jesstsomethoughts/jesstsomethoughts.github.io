@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/main.css';
+import '../main.css';
 
 // react components
 import Button from 'react-bootstrap/Button';

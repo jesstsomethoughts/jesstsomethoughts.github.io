@@ -1,12 +1,12 @@
 import React from 'react';
-import '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/main.css';
-import MetanoiaImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/metanoia.png';
+import '../main.css';
+import MetanoiaImg from '../images/metanoia.png';
 // import EscapeImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/escaperoom.png';
 // import DhImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/dh.png';
-import VaxImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/vax.png';
+import VaxImg from '../images/vax.png';
 // import PodcastImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/kovikitalk.jpeg';
-import DashboardImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/nhpi_dashboard.png';
-import sfHackImg from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/images/sfHackImg.jpeg';
+import DashboardImg from '../images/nhpi_dashboard.png';
+import sfHackImg from '../images/sfHackImg.jpeg';
 
 
 // react components

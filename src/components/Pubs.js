@@ -1,6 +1,6 @@
 import React from 'react';
-import '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/main.css';
-import MentalHealthPaper from '/Users/jessicali/Documents/Github/jesstsomethoughts.github.io/src/files/mentalhealth.pdf';
+import '../main.css';
+import MentalHealthPaper from '../files/mentalhealth.pdf';
 
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
